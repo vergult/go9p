@@ -5,7 +5,7 @@
 package srv
 
 import (
-	"code.google.com/p/go9p/p"
+	p "github.com/vergult/go9p"
 )
 
 func (srv *Srv) version(req *Req) {
